@@ -1,0 +1,31 @@
+.nav{
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.nav .navLogo h3{
+    color: green;
+    letter-spacing: 6px;
+}
+.nav .navLinks{
+width: 50%;
+}
+.nav .navLinks ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+.nav .navLinks ul li{
+    margin-right: 50px;
+}
+.nav .navLinks ul li a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav .navLinks ul li a:hover{
+    color: green;
+    cursor: pointer;
+}
